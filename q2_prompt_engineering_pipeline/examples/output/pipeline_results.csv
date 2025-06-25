@@ -1,0 +1,5 @@
+task_id,task_type,success,is_correct,confidence,prompt_version,timestamp,attempt
+example_1,math,True,True,0.75,2,2025-06-25T16:37:07.290009,1
+example_2,code,True,False,0.55,3,2025-06-25T16:37:10.878360,1
+example_3,logic,True,False,0.55,4,2025-06-25T16:37:14.290917,1
+example_math_1,math,True,True,0.8,5,2025-06-25T16:37:18.443672,1

@@ -1,0 +1,56 @@
+{
+  "task_id": "example_math_1",
+  "timestamp": 1750844666,
+  "paths": [
+    {
+      "id": "example_math_1_path_1",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Identify the first 10 prime numbers. A prime number is a number greater than 1 that has no positive divisors other than 1 and itself. The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 2: Sum the first 10 prime numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29.",
+        "Step 3: Calculate the sum: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.65,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750844666.0347323
+      }
+    },
+    {
+      "id": "example_math_1_path_2",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Create a function to check if a number is prime. This function will iterate from 2 up to the square root of the number. If any number in this range divides the given number, then the number is not prime.",
+        "Step 2: Initialize an empty list to store the prime numbers and a counter to keep track of how many primes we have found.",
+        "Step 3: Start with the number 2 and increment it until we have found 10 prime numbers.",
+        "Step 4: For each number, check if it is prime using the function created in step 1. If it is prime, add it to the list of primes and increment the counter.",
+        "Step 5: Once we have found 10 prime numbers, calculate the sum of the numbers in the list."
+      ],
+      "final_answer": "129",
+      "confidence": 0.75,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750844666.034817
+      }
+    },
+    {
+      "id": "example_math_1_path_3",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: List prime numbers sequentially until we have the first ten. This can be done by checking divisibility by smaller numbers. Start with 2, which is prime.",
+        "Step 2: Check 3, which is prime. Check 4, which is divisible by 2, so it is not prime. Check 5, which is prime. Check 6, which is divisible by 2 and 3, so it is not prime. Check 7, which is prime. Check 8, which is divisible by 2 and 4, so it is not prime. Check 9, which is divisible by 3, so it is not prime. Check 10, which is divisible by 2 and 5, so it is not prime. Check 11, which is prime. Check 12, which is divisible by 2, 3, 4, and 6, so it is not prime. Check 13, which is prime. Check 14, which is divisible by 2 and 7, so it is not prime. Check 15, which is divisible by 3 and 5, so it is not prime. Check 16, which is divisible by 2, 4, and 8, so it is not prime. Check 17, which is prime. Check 18, which is divisible by 2, 3, 6, and 9, so it is not prime. Check 19, which is prime. Check 20, which is divisible by 2, 4, 5, and 10, so it is not prime. Check 21, which is divisible by 3 and 7, so it is not prime. Check 22, which is divisible by 2 and 11, so it is not prime. Check 23, which is prime. Check 24, which is divisible by 2, 3, 4, 6, 8, and 12, so it is not prime. Check 25, which is divisible by 5, so it is not prime. Check 26, which is divisible by 2 and 13, so it is not prime. Check 27, which is divisible by 3 and 9, so it is not prime. Check 28, which is divisible by 2, 4, 7, and 14, so it is not prime. Check 29, which is prime. The first ten prime numbers are: 2, 3, 5, 7, 11, 13, 17, 19, 23, and 29.",
+        "Step 3: Sum these numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.65,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750844666.0349336
+      }
+    }
+  ]
+}

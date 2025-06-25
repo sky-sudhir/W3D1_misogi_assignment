@@ -1,0 +1,11 @@
+{
+  "id": "example_math_1",
+  "type": "math",
+  "description": "What is the sum of the first 10 prime numbers?",
+  "expected_answer": "129",
+  "metadata": {
+    "difficulty": "medium",
+    "category": "number theory",
+    "tags": ["primes", "summation", "basic"]
+  }
+}

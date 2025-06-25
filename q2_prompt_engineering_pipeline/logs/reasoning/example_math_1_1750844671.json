@@ -1,0 +1,63 @@
+{
+  "task_id": "example_math_1",
+  "timestamp": 1750844671,
+  "paths": [
+    {
+      "id": "example_math_1_path_1",
+      "task_id": "example_math_1",
+      "path": [
+        "Approach 1: Direct Calculation and Summation",
+        "Step 1: Identify the first 10 prime numbers. Prime numbers are numbers greater than 1 that are only divisible by 1 and themselves. The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 2: Sum the first 10 prime numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29.",
+        "Step 3: Calculate the sum: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129"
+      ],
+      "final_answer": "129",
+      "confidence": 0.7,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750844671.4724457
+      }
+    },
+    {
+      "id": "example_math_1_path_2",
+      "task_id": "example_math_1",
+      "path": [
+        "Approach 2: Iterative Prime Number Generation and Summation",
+        "Step 1: Initialize a list of prime numbers and a sum variable to 0. Start with an initial list containing only the first prime number, 2.",
+        "Step 2: Iteratively find the next prime number.  Start checking numbers from 3 onwards. For each number, check if it's divisible by any of the primes already in the list. If it's not divisible by any, it's a prime number. Add it to the list.",
+        "Step 3: Repeat Step 2 until you have found the first 10 prime numbers.",
+        "Step 4: Once you have the first 10 prime numbers [2, 3, 5, 7, 11, 13, 17, 19, 23, 29], sum them: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29.",
+        "Step 5: Calculate the sum: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129"
+      ],
+      "final_answer": "129",
+      "confidence": 0.8,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750844671.4725013
+      }
+    },
+    {
+      "id": "example_math_1_path_3",
+      "task_id": "example_math_1",
+      "path": [
+        "Approach 3: Using a Prime Number Sieve (Simplified) and Summation",
+        "Step 1: Create a list of numbers from 2 to a reasonable upper bound (e.g., 30, since we expect the 10th prime to be around that value). This list represents potential prime numbers.",
+        "Step 2: Iterate through the list.  Start with the first number (2).  Mark all multiples of 2 (except 2 itself) as non-prime.",
+        "Step 3: Move to the next unmarked number (3). Mark all multiples of 3 (except 3 itself) as non-prime.",
+        "Step 4: Continue this process until you reach the square root of the upper bound (square root of 30 is approximately 5.5, so continue until 5). All remaining unmarked numbers are prime numbers.",
+        "Step 5: Extract the prime numbers from the list. The first 10 primes will be 2, 3, 5, 7, 11, 13, 17, 19, 23, and 29.",
+        "Step 6: Sum the first 10 prime numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29.",
+        "Step 7: Calculate the sum: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129"
+      ],
+      "final_answer": "129",
+      "confidence": 0.9,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750844671.4725175
+      }
+    }
+  ]
+}

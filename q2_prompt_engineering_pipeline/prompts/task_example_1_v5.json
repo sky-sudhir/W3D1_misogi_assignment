@@ -1,0 +1,10 @@
+{
+  "id": "task_example_1",
+  "content": "You are an AI assistant solving a TaskType.MATH task. Provide a clear, step-by-step solution to the problem below. Think carefully and show your work.\n\nConsider multiple approaches before providing an answer.\n\nConsider multiple approaches before providing an answer.\n\nDouble-check your work for accuracy and completeness.\n\nDouble-check your work for accuracy and completeness.",
+  "version": 5,
+  "parent_version": 4,
+  "performance_metrics": {
+    "accuracy": 1.0,
+    "confidence": 0.8
+  }
+}

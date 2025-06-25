@@ -1,0 +1,62 @@
+{
+  "task_id": "example_math_1",
+  "timestamp": 1750844679,
+  "paths": [
+    {
+      "id": "example_math_1_path_1",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Identify the first 10 prime numbers. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 2: Sum the first 10 prime numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29.",
+        "Step 3: Calculate the sum: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.65,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750844679.8197286
+      }
+    },
+    {
+      "id": "example_math_1_path_2",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Create a function to check if a number is prime. A number is prime if it's greater than 1 and not divisible by any number other than 1 and itself.",
+        "Step 2: Initialize an empty list to store the prime numbers and a counter starting from 2.",
+        "Step 3: Iterate, checking if the current counter value is prime. If it is, add it to the list of prime numbers.",
+        "Step 4: Increment the counter until the list of prime numbers contains 10 elements.",
+        "Step 5: Sum the elements in the list of prime numbers.",
+        "Step 6: The first 10 primes are [2, 3, 5, 7, 11, 13, 17, 19, 23, 29].",
+        "Step 7: Calculate the sum: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.85,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750844679.819765
+      }
+    },
+    {
+      "id": "example_math_1_path_3",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Recall the Sieve of Eratosthenes, which is an efficient algorithm for finding all prime numbers up to a given limit.",
+        "Step 2: While we don't need *all* primes up to a limit, we can use the general principle to generate primes until we have 10 of them. We can estimate that we will need to search up to around 30.",
+        "Step 3: Start with the number 2. It's prime. Add it to our sum and our list of primes.",
+        "Step 4: Move to 3. It's prime. Add it to our sum and our list of primes.",
+        "Step 5: Continue checking subsequent numbers for primality. For each number, check if it is divisible by any of the primes we've already found. If not, it is also prime. Add it to our sum and our list of primes.",
+        "Step 6: Repeat until we have found 10 prime numbers. The first 10 primes are 2, 3, 5, 7, 11, 13, 17, 19, 23, and 29.",
+        "Step 7: Calculate the sum of these 10 primes: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.85,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750844679.8197813
+      }
+    }
+  ]
+}

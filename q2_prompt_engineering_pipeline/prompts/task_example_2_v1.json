@@ -1,0 +1,9 @@
+{
+  "id": "task_example_2",
+  "content": "You are an AI assistant solving a TaskType.CODE task. Provide a clear, step-by-step solution to the problem below. Think carefully and show your work.",
+  "version": 1,
+  "parent_version": null,
+  "performance_metrics": {
+    "initial": 0.0
+  }
+}

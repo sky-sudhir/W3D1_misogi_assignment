@@ -1,0 +1,59 @@
+{
+  "task_id": "example_1",
+  "timestamp": 1750848896,
+  "paths": [
+    {
+      "id": "example_1_path_1",
+      "task_id": "example_1",
+      "path": [
+        "Step 1: Define what a prime number is. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.",
+        "Step 2: List the first few prime numbers, starting with 2: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 3: Verify that we have the first 10 prime numbers.",
+        "Step 4: Calculate the sum: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.7,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750848896.649205
+      }
+    },
+    {
+      "id": "example_1_path_2",
+      "task_id": "example_1",
+      "path": [
+        "Step 1: Create a function to check if a number is prime. The function will iterate from 2 up to the square root of the number. If any number in that range divides the number evenly, then the number is not prime. Otherwise, it is prime.",
+        "Step 2: Initialize an empty list to store prime numbers and a counter variable to keep track of how many primes we have found.",
+        "Step 3: Start with the number 2 and iterate upwards. For each number, use the function from Step 1 to check if it is prime. If it is prime, add it to the list and increment the counter.",
+        "Step 4: Continue iterating until we have found 10 prime numbers.",
+        "Step 5: Calculate the sum of the prime numbers in the list. The prime numbers will be [2, 3, 5, 7, 11, 13, 17, 19, 23, 29].",
+        "Step 6: Calculate the sum: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.8,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750848896.6492417
+      }
+    },
+    {
+      "id": "example_1_path_3",
+      "task_id": "example_1",
+      "path": [
+        "Step 1: Use a known list of prime numbers. Many resources online provide lists of prime numbers.",
+        "Step 2: Find a list of prime numbers that contains at least the first 10 prime numbers.",
+        "Step 3: Extract the first 10 prime numbers from the list: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 4: Sum the numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.7,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750848896.6492522
+      }
+    }
+  ]
+}

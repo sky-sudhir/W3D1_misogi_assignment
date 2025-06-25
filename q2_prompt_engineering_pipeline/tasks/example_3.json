@@ -1,0 +1,10 @@
+{
+  "id": "example_3",
+  "type": "logic",
+  "description": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies?",
+  "expected_answer": "Yes, all Bloops are definitely Lazzies.",
+  "metadata": {
+    "difficulty": "medium",
+    "category": "logic"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "task_id": "example_math_1",
+  "timestamp": 1750845685,
+  "paths": [
+    {
+      "id": "example_math_1_path_1",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Identify the first 10 prime numbers. A prime number is a number greater than 1 that has only two divisors: 1 and itself. The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 2: Sum the identified prime numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29.",
+        "Step 3: Calculate the sum: 2 + 3 = 5; 5 + 5 = 10; 10 + 7 = 17; 17 + 11 = 28; 28 + 13 = 41; 41 + 17 = 58; 58 + 19 = 77; 77 + 23 = 100; 100 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.65,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750845685.6855998
+      }
+    },
+    {
+      "id": "example_math_1_path_2",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Create a function to check if a number is prime. This function will iterate from 2 up to the square root of the number. If any number within this range divides the given number evenly, then the number is not prime and the function returns false. Otherwise, it returns true.",
+        "Step 2: Initialize an empty list to store the prime numbers and a counter variable 'num' starting from 2.",
+        "Step 3: Iterate, checking each number 'num' for primality using the function from Step 1. If 'num' is prime, add it to the list of prime numbers.",
+        "Step 4: Continue the iteration until the list contains 10 prime numbers.",
+        "Step 5: Calculate the sum of the prime numbers in the list.",
+        "Step 6: The first 10 prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29. Summing these yields 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.8,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750845685.685626
+      }
+    },
+    {
+      "id": "example_math_1_path_3",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Recall the Sieve of Eratosthenes method for identifying prime numbers. While we don't need to generate *all* primes up to a certain limit, the principle applies.",
+        "Step 2: Start with the smallest prime number, 2. Note it down.",
+        "Step 3: The next number, 3, is prime. Note it down.",
+        "Step 4: Continue checking numbers sequentially. 4 is divisible by 2, so it's not prime. 5 is not divisible by any smaller primes, so it's prime. Note it down.",
+        "Step 5: Continue this process until we have identified the first 10 prime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 6: Add these 10 prime numbers together: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.8,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750845685.685634
+      }
+    }
+  ]
+}

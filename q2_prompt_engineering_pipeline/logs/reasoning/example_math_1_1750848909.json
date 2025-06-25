@@ -1,0 +1,60 @@
+{
+  "task_id": "example_math_1",
+  "timestamp": 1750848909,
+  "paths": [
+    {
+      "id": "example_math_1_path_1",
+      "task_id": "example_math_1",
+      "path": [
+        "Approach 1: Direct Calculation with Prime Number Identification",
+        "Step 1: Identify the first 10 prime numbers. A prime number is a number greater than 1 that has only two factors: 1 and itself. The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 2: Sum the identified prime numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.65,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750848909.300577
+      }
+    },
+    {
+      "id": "example_math_1_path_2",
+      "task_id": "example_math_1",
+      "path": [
+        "Approach 2: Iterative Prime Number Generation and Summation",
+        "Step 1: Initialize a sum variable to 0 and a counter to 0 (representing the number of primes found).",
+        "Step 2: Start with the number 2 (the first prime number).",
+        "Step 3: Check if the current number is prime.  To do this, check if it's divisible by any number from 2 up to the square root of the current number. If it is, it's not prime.",
+        "Step 4: If the number is prime, add it to the sum and increment the counter.",
+        "Step 5: Increment the current number.",
+        "Step 6: Repeat steps 3-5 until the counter reaches 10.",
+        "Step 7: The final sum is the sum of the first 10 prime numbers. The first 10 primes are 2, 3, 5, 7, 11, 13, 17, 19, 23, and 29. 2+3+5+7+11+13+17+19+23+29 = 129"
+      ],
+      "final_answer": "129",
+      "confidence": 0.9,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750848909.3006117
+      }
+    },
+    {
+      "id": "example_math_1_path_3",
+      "task_id": "example_math_1",
+      "path": [
+        "Approach 3: Using a Predefined List of Primes (up to a sufficient number)",
+        "Step 1: Assume we have a list of prime numbers that extends beyond the 10th prime number. For example: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41...",
+        "Step 2: Take the first 10 numbers from this list: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 3: Sum these 10 numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.7,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750848909.3006248
+      }
+    }
+  ]
+}

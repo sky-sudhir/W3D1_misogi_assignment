@@ -1,0 +1,56 @@
+{
+  "task_id": "example_1",
+  "timestamp": 1750849627,
+  "paths": [
+    {
+      "id": "example_1_path_1",
+      "task_id": "example_1",
+      "path": [
+        "Step 1: Identify the first 10 prime numbers. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 2: Sum the identified prime numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.6,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750849627.282319
+      }
+    },
+    {
+      "id": "example_1_path_2",
+      "task_id": "example_1",
+      "path": [
+        "Step 1: Create a function to check if a number is prime. The function should iterate from 2 up to the square root of the number. If any number in this range divides the given number evenly, then the number is not prime.",
+        "Step 2: Iterate through natural numbers starting from 2, checking each number for primality using the function created in Step 1.",
+        "Step 3: Maintain a list of prime numbers found so far. Stop when the list contains 10 prime numbers.",
+        "Step 4: Sum the numbers in the list. The first 10 primes are [2, 3, 5, 7, 11, 13, 17, 19, 23, 29].",
+        "Step 5: Calculate the sum: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.75,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750849627.2823775
+      }
+    },
+    {
+      "id": "example_1_path_3",
+      "task_id": "example_1",
+      "path": [
+        "Step 1: List the first few prime numbers from memory or a known list.  We know 2, 3, 5, 7 are primes.",
+        "Step 2: Continue listing primes, checking divisibility by smaller primes to confirm primality. 11, 13, 17, 19, 23, 29 are the next primes.",
+        "Step 3: Verify that we have 10 prime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 4:  Add these numbers together. 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129"
+      ],
+      "final_answer": "129",
+      "confidence": 0.7,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750849627.2823963
+      }
+    }
+  ]
+}

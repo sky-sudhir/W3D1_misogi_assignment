@@ -1,0 +1,58 @@
+{
+  "task_id": "example_math_1",
+  "timestamp": 1750849638,
+  "paths": [
+    {
+      "id": "example_math_1_path_1",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Identify the first 10 prime numbers. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 2: Sum the first 10 prime numbers: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.6,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750849638.4373336
+      }
+    },
+    {
+      "id": "example_math_1_path_2",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Create a function to check if a number is prime. This function will iterate from 2 up to the square root of the number. If any number in this range divides the number evenly, it's not prime.",
+        "Step 2: Initialize a list to store prime numbers and a counter. Start checking numbers from 2 onwards.",
+        "Step 3: For each number, use the prime check function. If it's prime, add it to the list.",
+        "Step 4: Continue until the list contains 10 prime numbers.",
+        "Step 5: Sum the numbers in the list: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.75,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750849638.4373617
+      }
+    },
+    {
+      "id": "example_math_1_path_3",
+      "task_id": "example_math_1",
+      "path": [
+        "Step 1: Recall the Sieve of Eratosthenes method for finding prime numbers. While we don't need to generate *all* primes up to a certain limit, we can adapt the idea.",
+        "Step 2: Start with a list of numbers from 2 onwards. Mark 2 as prime.",
+        "Step 3: Eliminate multiples of 2. Mark 3 as prime.",
+        "Step 4: Eliminate multiples of 3. Mark 5 as prime.",
+        "Step 5: Continue this process until we have identified the first 10 primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+        "Step 6: Sum these primes: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = 129."
+      ],
+      "final_answer": "129",
+      "confidence": 0.8,
+      "metadata": {
+        "model": "gemini-2.0-flash",
+        "generator": "gemini",
+        "timestamp": 1750849638.4373698
+      }
+    }
+  ]
+}

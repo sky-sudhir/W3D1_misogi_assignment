@@ -1,0 +1,215 @@
+2025-06-25 15:24:06.980 | INFO     | src.task_manager:_load_tasks:33 - Loading tasks from C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\tasks
+2025-06-25 15:24:06.981 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_1
+2025-06-25 15:24:06.981 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_2
+2025-06-25 15:24:06.981 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_3
+2025-06-25 15:24:06.982 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_math_1
+2025-06-25 15:24:06.982 | INFO     | src.llm:__init__:74 - Initialized Gemini client with model: gemini-2.0-flash
+2025-06-25 15:24:07.017 | INFO     | src.main:optimize_prompt:122 - Using existing prompt: task_example_1 (v4)
+2025-06-25 15:24:07.017 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_1
+2025-06-25 15:24:07.017 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_1
+2025-06-25 15:24:07.017 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_1
+2025-06-25 15:24:12.456 | INFO     | src.llm:generate_reasoning_paths:269 - Generated 3 reasoning paths
+2025-06-25 15:24:12.457 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_1_1750845252.json
+2025-06-25 15:24:12.458 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 15:24:12.459 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_1_1750845252.json
+2025-06-25 15:24:12.459 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_1_path_2 with confidence 0.75
+2025-06-25 15:24:12.460 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 15:24:12.464 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: True, Confidence: 0.75
+2025-06-25 15:24:12.466 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 5
+2025-06-25 15:24:12.474 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_2
+2025-06-25 15:24:12.475 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_2
+2025-06-25 15:24:12.475 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_2
+2025-06-25 15:30:58.433 | INFO     | src.llm:generate_reasoning_paths:269 - Generated 3 reasoning paths
+2025-06-25 15:30:58.434 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_2_1750845658.json
+2025-06-25 15:30:58.435 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 15:30:58.436 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_2_1750845658.json
+2025-06-25 15:30:58.437 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_2_path_2 with confidence 0.90
+2025-06-25 15:30:58.437 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 15:30:58.438 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: False, Confidence: 0.90
+2025-06-25 15:30:58.439 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 6
+2025-06-25 15:30:58.445 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_3
+2025-06-25 15:30:58.446 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_3
+2025-06-25 15:30:58.446 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_3
+2025-06-25 15:31:21.079 | INFO     | src.llm:generate_reasoning_paths:269 - Generated 3 reasoning paths
+2025-06-25 15:31:21.081 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_3_1750845681.json
+2025-06-25 15:31:21.081 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 15:31:21.082 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_3_1750845681.json
+2025-06-25 15:31:21.083 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_3_path_1 with confidence 0.75
+2025-06-25 15:31:21.083 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 15:31:21.084 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: True, Confidence: 0.75
+2025-06-25 15:31:21.085 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 7
+2025-06-25 15:31:21.090 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_math_1
+2025-06-25 15:31:21.091 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_math_1
+2025-06-25 15:31:21.091 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_math_1
+2025-06-25 15:31:25.685 | INFO     | src.llm:generate_reasoning_paths:269 - Generated 3 reasoning paths
+2025-06-25 15:31:25.687 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_math_1_1750845685.json
+2025-06-25 15:31:25.687 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 15:31:25.692 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_math_1_1750845685.json
+2025-06-25 15:31:25.693 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_math_1_path_2 with confidence 0.80
+2025-06-25 15:31:25.693 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 15:31:25.697 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: True, Confidence: 0.80
+2025-06-25 15:31:25.698 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 8
+2025-06-25 15:37:48.901 | INFO     | src.task_manager:_load_tasks:33 - Loading tasks from C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\tasks
+2025-06-25 15:37:48.902 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_1
+2025-06-25 15:37:48.902 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_2
+2025-06-25 15:37:48.903 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_3
+2025-06-25 15:37:48.903 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_math_1
+2025-06-25 15:37:48.903 | INFO     | src.llm:__init__:74 - Initialized Gemini client with model: gemini-2.0-flash
+2025-06-25 15:37:48.947 | INFO     | src.main:optimize_prompt:122 - Using existing prompt: task_example_1 (v8)
+2025-06-25 15:37:48.947 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_1
+2025-06-25 15:37:48.947 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_1
+2025-06-25 15:37:48.947 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_1
+2025-06-25 15:37:53.384 | INFO     | src.llm:generate_reasoning_paths:269 - Generated 3 reasoning paths
+2025-06-25 15:37:53.385 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_1_1750846073.json
+2025-06-25 15:37:53.386 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 15:37:53.388 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_1_1750846073.json
+2025-06-25 15:37:53.388 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_1_path_2 with confidence 0.70
+2025-06-25 15:37:53.389 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 15:37:53.389 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: True, Confidence: 0.70
+2025-06-25 15:37:53.390 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 9
+2025-06-25 15:37:53.397 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_2
+2025-06-25 15:37:53.398 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_2
+2025-06-25 15:37:53.398 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_2
+2025-06-25 15:52:13.678 | INFO     | src.task_manager:_load_tasks:33 - Loading tasks from C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\tasks
+2025-06-25 15:52:13.679 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_1
+2025-06-25 15:52:13.679 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_2
+2025-06-25 15:52:13.680 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_3
+2025-06-25 15:52:13.680 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_math_1
+2025-06-25 15:52:13.680 | INFO     | src.llm:__init__:74 - Initialized Gemini client with model: gemini-2.0-flash
+2025-06-25 15:52:13.699 | INFO     | src.main:optimize_prompt:122 - Using existing prompt: task_example_1 (v9)
+2025-06-25 15:52:13.700 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_1
+2025-06-25 15:52:13.700 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_1
+2025-06-25 15:52:13.700 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_1
+2025-06-25 15:52:19.668 | INFO     | src.llm:generate_reasoning_paths:269 - Generated 3 reasoning paths
+2025-06-25 15:52:19.673 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_1_1750846939.json
+2025-06-25 15:52:19.674 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 15:52:19.675 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_1_1750846939.json
+2025-06-25 15:52:19.676 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_1_path_2 with confidence 0.85
+2025-06-25 15:52:19.676 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 15:52:19.677 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: True, Confidence: 0.85
+2025-06-25 15:52:19.678 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 10
+2025-06-25 15:52:19.685 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_2
+2025-06-25 15:52:19.685 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_2
+2025-06-25 15:52:19.686 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_2
+2025-06-25 15:53:30.244 | INFO     | src.task_manager:_load_tasks:33 - Loading tasks from C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\tasks
+2025-06-25 15:53:30.245 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_1
+2025-06-25 15:53:30.245 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_2
+2025-06-25 15:53:30.245 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_3
+2025-06-25 15:53:30.246 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_math_1
+2025-06-25 15:53:30.246 | INFO     | src.llm:__init__:74 - Initialized Gemini client with model: gemini-2.0-flash
+2025-06-25 15:53:30.254 | INFO     | src.main:optimize_prompt:122 - Using existing prompt: task_example_1 (v10)
+2025-06-25 15:53:30.254 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_1
+2025-06-25 15:53:30.255 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_1
+2025-06-25 15:53:30.255 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_1
+2025-06-25 15:55:57.568 | INFO     | src.task_manager:_load_tasks:33 - Loading tasks from C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\tasks
+2025-06-25 15:55:57.569 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_1
+2025-06-25 15:55:57.570 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_2
+2025-06-25 15:55:57.570 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_3
+2025-06-25 15:55:57.570 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_math_1
+2025-06-25 15:55:57.570 | INFO     | src.llm:__init__:74 - Initialized Gemini client with model: gemini-2.0-flash
+2025-06-25 15:55:57.625 | INFO     | src.main:optimize_prompt:122 - Using existing prompt: task_example_1 (v10)
+2025-06-25 15:55:57.626 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_1
+2025-06-25 15:55:57.626 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_1
+2025-06-25 15:55:57.626 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_1
+2025-06-25 16:24:51.325 | INFO     | src.task_manager:_load_tasks:33 - Loading tasks from C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\tasks
+2025-06-25 16:24:51.326 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_1
+2025-06-25 16:24:51.326 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_2
+2025-06-25 16:24:51.327 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_3
+2025-06-25 16:24:51.327 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_math_1
+2025-06-25 16:24:51.327 | INFO     | src.llm:__init__:74 - Initialized Gemini client with model: gemini-2.0-flash
+2025-06-25 16:24:51.331 | INFO     | src.main:optimize_prompt:122 - Using existing prompt: task_example_1 (v1)
+2025-06-25 16:24:51.331 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_1
+2025-06-25 16:24:51.331 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_1
+2025-06-25 16:24:51.332 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_1
+2025-06-25 16:24:56.649 | INFO     | src.llm:generate_reasoning_paths:269 - Generated 3 reasoning paths
+2025-06-25 16:24:56.650 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_1_1750848896.json
+2025-06-25 16:24:56.651 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 16:24:56.652 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_1_1750848896.json
+2025-06-25 16:24:56.653 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_1_path_2 with confidence 0.80
+2025-06-25 16:24:56.653 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 16:24:56.654 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: True, Confidence: 0.80
+2025-06-25 16:24:56.655 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 2
+2025-06-25 16:24:56.663 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_2
+2025-06-25 16:24:56.664 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_2
+2025-06-25 16:24:56.664 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_2
+2025-06-25 16:25:00.854 | INFO     | src.llm:generate_reasoning_paths:269 - Generated 3 reasoning paths
+2025-06-25 16:25:00.856 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_2_1750848900.json
+2025-06-25 16:25:00.856 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 16:25:00.858 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_2_1750848900.json
+2025-06-25 16:25:00.859 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_2_path_2 with confidence 0.90
+2025-06-25 16:25:00.860 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 16:25:00.861 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: False, Confidence: 0.90
+2025-06-25 16:25:00.862 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 3
+2025-06-25 16:25:00.868 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_3
+2025-06-25 16:25:00.868 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_3
+2025-06-25 16:25:00.869 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_3
+2025-06-25 16:25:04.484 | INFO     | src.llm:generate_reasoning_paths:269 - Generated 3 reasoning paths
+2025-06-25 16:25:04.485 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_3_1750848904.json
+2025-06-25 16:25:04.486 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 16:25:04.487 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_3_1750848904.json
+2025-06-25 16:25:04.488 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_3_path_2 with confidence 0.75
+2025-06-25 16:25:04.488 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 16:25:04.488 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: True, Confidence: 0.75
+2025-06-25 16:25:04.489 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 4
+2025-06-25 16:25:04.494 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_math_1
+2025-06-25 16:25:04.495 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_math_1
+2025-06-25 16:25:04.495 | INFO     | src.llm:generate_reasoning_paths:192 - Generating 3 reasoning paths for task: example_math_1
+2025-06-25 16:25:09.300 | INFO     | src.llm:generate_reasoning_paths:269 - Generated 3 reasoning paths
+2025-06-25 16:25:09.302 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_math_1_1750848909.json
+2025-06-25 16:25:09.303 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 16:25:09.304 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_math_1_1750848909.json
+2025-06-25 16:25:09.305 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_math_1_path_2 with confidence 0.90
+2025-06-25 16:25:09.305 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 16:25:09.306 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: True, Confidence: 0.90
+2025-06-25 16:25:09.308 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 5
+2025-06-25 16:37:02.065 | INFO     | src.task_manager:_load_tasks:33 - Loading tasks from C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\tasks
+2025-06-25 16:37:02.066 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_1
+2025-06-25 16:37:02.067 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_2
+2025-06-25 16:37:02.067 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_3
+2025-06-25 16:37:02.068 | DEBUG    | src.task_manager:_load_tasks:40 - Loaded task: example_math_1
+2025-06-25 16:37:02.068 | INFO     | src.llm:__init__:74 - Initialized Gemini client with model: gemini-2.0-flash
+2025-06-25 16:37:02.075 | INFO     | src.main:optimize_prompt:122 - Using existing prompt: task_example_1 (v1)
+2025-06-25 16:37:02.076 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_1
+2025-06-25 16:37:02.076 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_1
+2025-06-25 16:37:02.076 | INFO     | src.llm:generate_reasoning_paths:193 - Generating 3 reasoning paths for task: example_1
+2025-06-25 16:37:07.282 | INFO     | src.llm:generate_reasoning_paths:270 - Generated 3 reasoning paths
+2025-06-25 16:37:07.284 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_1_1750849627.json
+2025-06-25 16:37:07.284 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 16:37:07.286 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_1_1750849627.json
+2025-06-25 16:37:07.286 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_1_path_2 with confidence 0.75
+2025-06-25 16:37:07.286 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 16:37:07.287 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: True, Confidence: 0.75
+2025-06-25 16:37:07.289 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 2
+2025-06-25 16:37:07.297 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_2
+2025-06-25 16:37:07.298 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_2
+2025-06-25 16:37:07.298 | INFO     | src.llm:generate_reasoning_paths:193 - Generating 3 reasoning paths for task: example_2
+2025-06-25 16:37:10.872 | INFO     | src.llm:generate_reasoning_paths:270 - Generated 3 reasoning paths
+2025-06-25 16:37:10.873 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_2_1750849630.json
+2025-06-25 16:37:10.874 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 16:37:10.875 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_2_1750849630.json
+2025-06-25 16:37:10.875 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_2_path_1 with confidence 0.55
+2025-06-25 16:37:10.875 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 16:37:10.876 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: False, Confidence: 0.55
+2025-06-25 16:37:10.877 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 3
+2025-06-25 16:37:10.882 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_3
+2025-06-25 16:37:10.882 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_3
+2025-06-25 16:37:10.883 | INFO     | src.llm:generate_reasoning_paths:193 - Generating 3 reasoning paths for task: example_3
+2025-06-25 16:37:14.283 | INFO     | src.llm:generate_reasoning_paths:270 - Generated 3 reasoning paths
+2025-06-25 16:37:14.285 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_3_1750849634.json
+2025-06-25 16:37:14.285 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 16:37:14.286 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_3_1750849634.json
+2025-06-25 16:37:14.287 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_3_path_1 with confidence 0.55
+2025-06-25 16:37:14.287 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 16:37:14.288 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: False, Confidence: 0.55
+2025-06-25 16:37:14.289 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 4
+2025-06-25 16:37:14.294 | INFO     | src.main:run_reasoning:67 - Starting reasoning process for task: example_math_1
+2025-06-25 16:37:14.295 | INFO     | src.reasoning_engine:generate_paths:49 - Generating 3 reasoning paths for task: example_math_1
+2025-06-25 16:37:14.295 | INFO     | src.llm:generate_reasoning_paths:193 - Generating 3 reasoning paths for task: example_math_1
+2025-06-25 16:37:18.437 | INFO     | src.llm:generate_reasoning_paths:270 - Generated 3 reasoning paths
+2025-06-25 16:37:18.438 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_math_1_1750849638.json
+2025-06-25 16:37:18.439 | INFO     | src.reasoning_engine:select_best_path:100 - Selecting best path using strategy: confidence
+2025-06-25 16:37:18.440 | DEBUG    | src.reasoning_engine:_log_paths:248 - Logged 3 reasoning paths to C:\Users\Lenovo\Desktop\PY-project\prompt_engineering_pipeline\logs\reasoning\example_math_1_1750849638.json
+2025-06-25 16:37:18.440 | INFO     | src.main:run_reasoning:78 - Completed reasoning. Selected best path: example_math_1_path_3 with confidence 0.80
+2025-06-25 16:37:18.441 | INFO     | src.main:evaluate_solution:86 - Evaluating solution...
+2025-06-25 16:37:18.441 | INFO     | src.main:evaluate_solution:94 - Evaluation complete. Correct: True, Confidence: 0.80
+2025-06-25 16:37:18.442 | INFO     | src.main:optimize_prompt:138 - Optimized prompt to version 5
