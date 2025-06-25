@@ -1,0 +1,10 @@
+Answer the medical question clearly and concisely.
+
+Q: What is diabetes?
+A: Diabetes is a chronic condition where the body cannot properly regulate blood sugar levels.
+
+Q: What causes high blood pressure?
+A: High blood pressure can be caused by stress, poor diet, lack of exercise, or genetics.
+
+Q: What are the symptoms of dengue?
+A: Dengue symptoms include high fever, severe headache, joint pain, and skin rash.

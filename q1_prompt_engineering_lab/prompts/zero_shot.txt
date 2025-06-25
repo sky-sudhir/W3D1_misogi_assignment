@@ -1,0 +1,3 @@
+Answer the following medical question accurately and clearly.
+
+Question: What are the common symptoms of dengue?
